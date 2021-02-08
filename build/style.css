@@ -1,0 +1,138 @@
+body {
+	background-image: url('https://media.istockphoto.com/photos/yellow-rugged-wooden-background-with-straight-horizontal-lines-and-picture-id869797314?k=6&m=869797314&s=612x612&w=0&h=b23YW9wQgER6cMNKaAzNQ7PLF2xYeSoNbxuLZUiqOAU=') !important;
+}
+h2,
+h5,
+h4,
+h6 {
+	font-weight: bolder !important;
+}
+.container2 {
+	position: absolute;
+	height: 500px;
+	width: 400px;
+}
+.firstDiv {
+	position: absolute;
+	background-color: rgb(95, 23, 23);
+	width: 300px;
+	height: 20px;
+	top: 490px;
+	left: 50px;
+	transition: 1s ease-in-out;
+	border-radius: 50px;
+}
+.secondDiv {
+	position: absolute;
+	background-color: rgb(95, 23, 23);
+	width: 15px;
+	height: 480px;
+	top: 30px;
+	left: 100px;
+	transition: 1s ease-in-out;
+	border-radius: 50px;
+}
+.thirdDiv {
+	position: absolute;
+	background-color: rgb(95, 23, 23);
+	width: 200px;
+	height: 15px;
+	top: 30px;
+	left: 100px;
+	transition: 1s ease-in-out;
+	border-radius: 50px;
+}
+.forthdDiv {
+	position: absolute;
+	background-color: rgb(6, 6, 105);
+	width: 10px;
+	height: 52px;
+	top: 43px;
+	left: 200px;
+	transition: 1s ease-in-out;
+}
+
+.fifthdDiv {
+	position: absolute;
+	top: 94px;
+	left: 179px;
+	height: 50px;
+	width: 50px;
+	border: solid rgb(6, 6, 105) 8px;
+	border-radius: 50%;
+	display: inline-block;
+	transition: 1s ease-in-out;
+}
+.sixthDiv {
+	position: absolute;
+	top: 138px;
+	left: 200px;
+	height: 160px;
+	width: 10px;
+	background-color: rgb(6, 6, 105);
+	transition: 1s ease-in-out;
+}
+.seventhDiv {
+	width: 50px;
+	height: 200px;
+	border-bottom: 10px solid rgb(6, 6, 105);
+	transform: translateY(-20px) translateX(5px) rotate(27deg);
+	position: absolute;
+	left: 200px;
+	transition: 1s ease-in-out;
+}
+.eigthDiv {
+	width: 50px;
+	height: 200px;
+	border-bottom: 10px solid rgb(6, 6, 105);
+	transform: translateY(-20px) translateX(5px) rotate(-27deg);
+	position: absolute;
+	left: 150px;
+	transition: 1s ease-in-out;
+}
+.ninethDiv {
+	width: 50px;
+	height: 190px;
+	border-bottom: 10px solid rgb(6, 6, 105);
+	transform: translateY(-20px) translateX(5px) rotate(127deg);
+	position: absolute;
+	left: 235px;
+	top: 296px;
+	transition: 1s ease-in-out;
+}
+.tenthDiv {
+	width: 50px;
+	height: 190px;
+	border-bottom: 10px solid rgb(6, 6, 105);
+	transform: translateY(-20px) translateX(5px) rotate(-127deg);
+	position: absolute;
+	left: 117px;
+	top: 294px;
+	transition: 1s ease-in-out;
+}
+#currentGuess {
+	font-size: 45px;
+}
+
+.red-dot {
+	height: 25px;
+	width: 25px;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
+}
+.blue-dot {
+	height: 25px;
+	width: 25px;
+	background-color: blue;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.yellow-dot {
+	height: 25px;
+	width: 25px;
+	background-color: yellow;
+	border-radius: 50%;
+	display: inline-block;
+}
